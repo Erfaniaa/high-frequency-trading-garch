@@ -59,3 +59,12 @@ This project is developed for educational purposes to demonstrate the implementa
 
 - Recommendation: For a theoretically sound application of the GARCH model, it is recommended to use evenly spaced time series data. Modifying the project to aggregate ticker data into candlestick data before applying the GARCH model would improve the theoretical correctness of the simulation.
 
+## Sample Output
+**prices.png**
+![prices](https://github.com/user-attachments/assets/1f166c94-c403-4c7b-8d43-f8f5de96acd5)
+
+**wallet_worth.png**
+![wallet_worth](https://github.com/user-attachments/assets/d313989c-2980-4196-907e-546b786667bb)
+
+**spread_percents**
+![spread_percents](https://github.com/user-attachments/assets/006da970-a942-495e-8db6-fa243dd4687d)
