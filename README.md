@@ -66,5 +66,5 @@ This project is developed for educational purposes to demonstrate the implementa
 **wallet_worth.png**
 ![wallet_worth](https://github.com/user-attachments/assets/d313989c-2980-4196-907e-546b786667bb)
 
-**spread_percents**
+**spread_percents.png**
 ![spread_percents](https://github.com/user-attachments/assets/006da970-a942-495e-8db6-fa243dd4687d)
