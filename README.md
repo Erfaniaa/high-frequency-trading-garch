@@ -48,3 +48,13 @@ Order Management: Handles order expiration, execution, and tracking over the cou
 4. Build Application: Run `go build` to compile the application.
 5. Execute Simulation: Run the compiled binary to start the simulation. The application will connect to Binance, retrieve data, and perform the trading simulation.
 6. View Results: After completion, open the generated image files (`prices.png`, `spread_percents.png`, `wallet_worth.png`) to analyze the visualizations.
+
+## Note
+
+This project is developed for educational purposes to demonstrate the implementation of a trading simulation using real-time market data and volatility modeling. Please be aware of the following theoretical issue in the current implementation:
+
+- Data Input for GARCH Model: The GARCH model in this project uses ticker price updates as input data. However, GARCH models are theoretically designed to work with time series data that are equally spaced in time—such as closing prices from candlestick (OHLCV) data of a specific timeframe (e.g., 1-minute, 5-minute intervals).
+
+- Implications: Using irregularly timed ticker data can lead to inaccurate volatility estimates because the time intervals between data points are inconsistent. This affects the reliability of the model's predictions and, consequently, the performance of the simulated trading strategy.
+
+- Recommendation: For a theoretically sound application of the GARCH model, it is recommended to use evenly spaced time series data. Modifying the project to aggregate ticker data into candlestick data before applying the GARCH model would improve the theoretical correctness of the simulation.
