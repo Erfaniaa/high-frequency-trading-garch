@@ -1,5 +1,5 @@
-# Crypto High Frequency Trading Using Garch
-Retrieve data from Binance and simulate high frequency trading on them using the GARCH model
+# Crypto High-Frequency Trading Using GARCH
+Retrieve data from Binance and simulate high-frequency trading on them using the GARCH model
 
 ## Description
 This project is a Go application designed to simulate a cryptocurrency trading strategy based on real-time market data and advanced statistical modeling. The primary goal is to implement and backtest a trading algorithm that uses the GARCH (Generalized Autoregressive Conditional Heteroskedasticity) model to predict market volatility and make informed trading decisions.
